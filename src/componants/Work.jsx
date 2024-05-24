@@ -80,7 +80,7 @@ export const Work = () => {
                 <p className='text-lg font-light leading-7'>Website Design</p>
 
 
-                <Link to={'https://orebi-one.vercel.app/'}>
+                <Link to={'/ksfbarsjd'}>
                 <button className='py-2 px-7 rounded-full border text-white flex items-center gap-x-1 hover:gap-x-4 hover:bg-[#C54B8C] transition-all duration-300'>View work <FaAngleRight /></button>
                 </Link>
                 <p className='border-b pb-10'></p>
