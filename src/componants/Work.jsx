@@ -17,7 +17,7 @@ export const Work = () => {
             <h5 className='text-[#7d7e82] lg:text-[40px] text-xl font-light lg:leading-[48px] font-Josefin text-center'>Selected <span className='text-[#E3E4E6] lg:text-[40px] text-xl font-semibold lg:leading-8 font-Josefin'>Works</span></h5>
            </div>
            
-            <div className='lg:flex gap-x-8 mb-16 lg:mb-10'>
+            <div className='lg:flex gap-x-8 mb-10 lg:mb-10'>
                 <div className='max-w-[650px]'>
                 <Image className='text-white lg:h-[490px] h-80 w-[594px] lg:hover:h-full hover:h-[500px] hover:w-[650px] transition-all duration-500 object-cover rounded-md mb-5' src={orebi}/>
                 </div>
@@ -34,6 +34,7 @@ export const Work = () => {
                 <Link to={'https://orebi-one.vercel.app/'}>
                 <button className='py-2 px-7 rounded-full border text-white flex items-center gap-x-1 hover:gap-x-4 hover:bg-[#C54B8C] transition-all duration-300'>View work <FaAngleRight /></button>
                 </Link>
+                <p className='border-b pb-10'></p>
             </div>
            
            </div>   
@@ -53,10 +54,14 @@ export const Work = () => {
                 <Link to={'https://hekto-blue.vercel.app/'}>
                 <button className='py-2 px-7 rounded-full border text-white flex items-center gap-x-1 hover:gap-x-4 hover:bg-[#C54B8C] transition-all duration-300 mb-5 lg:mb-0'>View work <FaAngleRight /></button>
                 </Link>
-                
+                <p className='border-b pb-10'></p>
             </div>
+
             <div>
                 <Image className='text-white lg:h-[490px] h-80 w-[594px] lg:hover:h-full hover:h-[500px] hover:w-[650px] transition-all duration-500 object-cover rounded-md mb-5' src={hekto}/>
+                </div>
+                <div className='px-3 lg:px-0'> 
+                <p className='border-b pb-10'></p>
                 </div>
            </div>          
           
@@ -78,6 +83,7 @@ export const Work = () => {
                 <Link to={'https://orebi-one.vercel.app/'}>
                 <button className='py-2 px-7 rounded-full border text-white flex items-center gap-x-1 hover:gap-x-4 hover:bg-[#C54B8C] transition-all duration-300'>View work <FaAngleRight /></button>
                 </Link>
+                <p className='border-b pb-10'></p>
             </div>
            
            </div>   
