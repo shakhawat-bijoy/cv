@@ -1,8 +1,6 @@
 import React from 'react'
 import Container from './layer/Container'
 import Listitem from './layer/Listitem'
-import Image from './layer/Image'
-import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -19,7 +17,7 @@ const Navbar = () => {
           <ul className='flex items-center lg:gap-x-8 gap-x-4 text-white'>
             <Listitem href="/" text="Home"/>
             <Listitem href="/work" text="Work"/>
-            <Listitem href="/" text="About"/>
+            <Listitem href="/about" text="About"/>
           </ul>
         </div>
       </Container>

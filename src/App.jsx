@@ -8,7 +8,7 @@ import {
   RouterProvider
 } from "react-router-dom";
 import RootLayout from './componants/layer/RootLayout';
-import { Work } from './componants/Work';
+import Error from './componants/page/Error';
 
 const App = () => {
  
@@ -17,8 +17,11 @@ const App = () => {
       <Route
         path="/"
         element={<RootLayout/>}
+        errorElement={<Error />}
       >
         <Route index element={<Home/>}></Route>
+        <Route path='/work' ></Route>
+        <Route path='/about' ></Route>
       </Route>
     )
   );
