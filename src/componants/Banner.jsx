@@ -71,7 +71,7 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     speed: 1000,
     autoplaySpeed: 6000,
     nextArrow: <SampleNextArrow />,

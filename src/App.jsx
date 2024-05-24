@@ -20,8 +20,8 @@ const App = () => {
         errorElement={<Error />}
       >
         <Route index element={<Home/>}></Route>
-        <Route path='/work' ></Route>
-        <Route path='/about' ></Route>
+        <Route path='/work' element={<work/>} ></Route>
+        <Route path='/about' element={<about/>}></Route>
       </Route>
     )
   );

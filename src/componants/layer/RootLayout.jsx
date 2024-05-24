@@ -6,6 +6,7 @@ import About from '../About'
 import Clients from '../Clients'
 import { Work } from '../Work'
 import Footer from '../Footer'
+import Error from '../page/Error'
 
 const RootLayout = () => {
   return (
@@ -16,6 +17,7 @@ const RootLayout = () => {
         <Work/>
         <About/>
         <Outlet/>
+        
         <Footer/>
 
     </div>

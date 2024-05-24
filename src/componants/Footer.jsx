@@ -16,7 +16,7 @@ const Footer = () => {
 
             <div className='text-white flex justify-center l/g:gap-x-14 gap-x-5 items-center lg:my-10 my-5'>
                 <Link to={`https://www.facebook.com/bijoy1x`}>
-                    <FaFacebookF className='lg:w-10 w-5 lg:h-10 h-5'/>
+                    <FaFacebookF className='lg:w-10 w-5 lg:h-8 h-4'/>
                 </Link>
 
                 <Link to={`https://www.linkedin.com/in/shakhawat-bijoy/`}>

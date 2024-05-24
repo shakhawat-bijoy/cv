@@ -16,8 +16,8 @@ const Navbar = () => {
 
           <ul className='flex items-center lg:gap-x-8 gap-x-4 text-white'>
             <Listitem href="/" text="Home"/>
-            <Listitem href="/work" text="Work"/>
-            <Listitem href="/about" text="About"/>
+            <Listitem href="/sdfs" text="Work"/>
+            <Listitem href="/fsdsd" text="About"/>
           </ul>
         </div>
       </Container>
