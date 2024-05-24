@@ -44,7 +44,7 @@ function SampleNextArrow2(props) {
       style={{ ...style, display: "block", }}
       onClick={onClick}
     >
-      <FaArrowRightLong />
+      <FaArrowRightLong className='text-white'/>
 
     </div>
   );
@@ -58,7 +58,7 @@ function SamplePrevArrow2(props) {
     style={{ ...style, display: "block", }}
     onClick={onClick}
   >
-    <FaArrowLeftLong />
+    <FaArrowLeftLong className='text-white'/>
 
   </div>
   );
