@@ -35,10 +35,10 @@ export const Work = () => {
            
            <motion.div
            
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.7 }}
+           variants={fadeIn("up", 0.2)}
+           initial="hidden"
+           whileInView={"show"}
+           viewport={{once: false, amount: 0.7 }}
            
            className='lg:flex gap-x-8 mb-16 lg:mb-10'>
                 <div className='max-w-[650px]'>
@@ -47,10 +47,10 @@ export const Work = () => {
 
                 <motion.div
                 
-                variants={fadeIn("left", 0.5)}
+                variants={fadeIn("right", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{once: false, amount: 0.3 }}
+                viewport={{once: false, amount: 0.7 }}
                 
                 className='flex flex-col my-auto px-3 lg:px-0'>
                     <h5 className='font-Lato text-base font-semibold leading-6 tracking-[0.64px] text-[#E3E4E6] mb-5'>Ecomarce Template</h5>
@@ -74,19 +74,19 @@ export const Work = () => {
 
             <motion.div
            
-           variants={fadeIn("up", 0.2)}
-           initial="hidden"
-           whileInView={"show"}
-           viewport={{once: false, amount: 0.7 }}
+                variants={fadeIn("up", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{once: false, amount: 0.7 }}
           
           className='lg:flex gap-x-8 mb-16 lg:mb-10'>
 
                <motion.div
-               
-               variants={fadeIn("left", 0.5)}
-               initial="hidden"
-               whileInView={"show"}
-               viewport={{once: false, amount: 0.3 }}
+
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{once: false, amount: 0.7 }}
                
                className='flex flex-col my-auto px-3 lg:px-0'>
                    <h5 className='font-Lato text-base font-semibold leading-6 tracking-[0.64px] text-[#E3E4E6] mb-5'>Ecomarce Template</h5>
@@ -98,10 +98,10 @@ export const Work = () => {
 
 
                <Link to={'/ksfbarsjd'}>
-               <button className='py-2 px-7 rounded-full border text-white flex items-center gap-x-1 hover:gap-x-4 hover:bg-[#C54B8C] transition-all duration-300'>View work <FaAngleRight /></button>
+               <button className='py-2 px-7 rounded-full border text-white flex items-center gap-x-1 hover:gap-x-4 hover:bg-[#C54B8C] transition-all duration-300 mb-5'>View work <FaAngleRight /></button>
                </Link>
 
-               <p className='border-b pb-10'></p>
+               <p className='border-b pb-10 text-white'></p>
 
            </motion.div>
 
@@ -109,17 +109,18 @@ export const Work = () => {
            <div className='max-w-[650px]'>
                <Image className='text-white lg:h-[490px] h-80 w-[594px] lg:hover:h-[1000px] hover:h-[500px] hover:w-[650px] transition-all duration-500 object-cover rounded-md mb-5' src={hekto}/>
                </div>
-          
+
+               <p className='border-b pb-10 text-white'></p>
           </motion.div>      
           
            {/* ========================= */}
                        
            <motion.div
            
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.7 }}
+                variants={fadeIn("up", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{once: false, amount: 0.7 }}
            
            className='lg:flex gap-x-8 mb-16 lg:mb-10'>
                 <div className='max-w-[650px]'>
@@ -128,10 +129,10 @@ export const Work = () => {
 
                 <motion.div
                 
-                variants={fadeIn("left", 0.5)}
+                variants={fadeIn("right", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{once: false, amount: 0.3 }}
+                viewport={{once: false, amount: 0.7 }}
                 
                 className='flex flex-col my-auto px-3 lg:px-0'>
                     <h5 className='font-Lato text-base font-semibold leading-6 tracking-[0.64px] text-[#E3E4E6] mb-5'>Ecomarce Template</h5>
