@@ -6,6 +6,11 @@ import b2 from '../assets/b2.jpg'
 import b3 from '../assets/b3.jpg'
 import Image from './layer/Image';
 
+//motion 
+import {motion} from 'framer-motion';
+//variants
+import {fadeIn} from '../variants'
+
 
 
 function SampleNextArrow(props) {
@@ -81,14 +86,14 @@ const Banner = () => {
       {
         breakpoint: 1025,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         }
       },
       {
         breakpoint: 750,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         }
       },    {
@@ -128,32 +133,56 @@ const Banner = () => {
         <div className="relative">
           <Image className="w-full lg:h-[830px] h-80 object-cover" src={b1} />
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="absolute inset-0 flex justify-center items-center">
-            <h2 className='text-[#E3E4E6] lg:text-[56px] text-xl lg:leading-[84px] leading-8 mx-auto text-center lg:w-[1185px] w-[270px]'>
+          <motion.div
+          
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount: 0.7 }}
+          
+          className="absolute inset-0 flex justify-center items-center">
+            <h2 className='text-[#E3E4E6] lg:text-[56px] text-xl lg:leading-[84px] leading-8 mx-auto text-center lg:w-[1185px] w-[270px] font-Josefin'>
               I’m a designer specialising in Web Development and Interaction Design
             </h2>
-          </div>
+          </motion.div>
         </div>
 
         <div className="relative">
           <Image className="w-full lg:h-[830px] h-80 object-cover" src={b2} />
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="absolute inset-0 flex justify-center items-center">
-          <h2 className='text-[#E3E4E6] lg:text-[56px] text-xl lg:leading-[84px] leading-8 mx-auto text-center lg:w-[1185px] w-[270px]'>
+          <motion.div
+          
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount: 0.7 }}
+          
+          className="absolute inset-0 flex justify-center items-center">
+            <h2 className='text-[#E3E4E6] lg:text-[56px] text-xl lg:leading-[84px] leading-8 mx-auto text-center lg:w-[1185px] w-[270px] font-Josefin'>
               I’m a designer specialising in Web Development and Interaction Design
             </h2>
-          </div>
+          </motion.div>
         </div>
 
         <div className="relative">
           <Image className="w-full lg:h-[830px] h-80 object-cover" src={b3} />
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="absolute inset-0 flex justify-center items-center">
-          <h2 className='text-[#E3E4E6] lg:text-[56px] text-xl lg:leading-[84px] leading-8 mx-auto text-center lg:w-[1185px] w-[270px]'>
+          <motion.div
+          
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount: 0.7 }}
+          
+          className="absolute inset-0 flex justify-center items-center">
+            <h2 className='text-[#E3E4E6] lg:text-[56px] text-xl lg:leading-[84px] leading-8 mx-auto text-center lg:w-[1185px] w-[270px] font-Josefin'>
               I’m a designer specialising in Web Development and Interaction Design
             </h2>
-          </div>
+          </motion.div>
         </div>
+
+
+
       </Slider>
     </div>
   )
